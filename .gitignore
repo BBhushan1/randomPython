@@ -1,4 +1,5 @@
 .idea/
 *.json
 fluxo/*
-ticket.py
+
+untracked/*
