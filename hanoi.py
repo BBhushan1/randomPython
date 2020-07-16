@@ -16,10 +16,10 @@ def hanoi(n, f, h, t):
         pass
     else:
         i += 1;
-        hanoi(n - 1, f, tgit , h)
+        hanoi(n - 1, f, t , h)
         print(move(f, t))
         hanoi(n - 1, h, f, t)
 
 
-hanoi(4, "A", "B", "C")
+hanoi(8, "A", "B", "C")
 print("Number of steps: {steps}".format(steps=i))
